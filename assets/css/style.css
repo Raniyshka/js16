@@ -1,0 +1,417 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    transition: .5s;
+    scroll-behavior: smooth;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.py-80 {
+    padding: 80px 0;
+}
+
+@font-face {
+    font-family: 'GOTHIC';
+    src: url(../fonts/GOTHIC.TTF);
+}
+
+.to-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 71, 170);
+    border-radius: 50px;
+}
+
+h1 {
+    color: rgb(0, 0, 92);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a {
+    color: rgb(0, 0, 92);
+}
+
+nav a:hover {
+    transform: scale(1.1);
+}
+
+/* header start */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 0;
+}
+
+header img {
+    width: 200px;
+}
+
+header button {
+    padding: 5px 10px;
+    background-color: rgb(230, 233, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+header button:hover {
+    background-color: rgba(238, 210, 255, 0.411);
+    color: rgb(0, 0, 92);
+    transform: scale(1.1);
+}
+
+/* header end */
+
+/* banner start */
+.banner {
+    background: url(../images/banner/3q030zm9uyqle9b6my1d6ewsx.jpg);
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 90px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.banner button {
+    padding: 10px 30px;
+    background-color: rgb(100, 123, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.banner button:hover {
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+/* banner end */
+
+/* preim start */
+
+.preim h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.preim h5 {
+    text-align: center;
+    width: 900px;
+    margin: 0 auto 60px;
+}
+
+.preim h4, .preim p {
+    margin-bottom: 10px;
+}
+
+.preim-card {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    width: 1000px;
+    margin: 30px auto;
+}
+
+.preim-card img {
+    width: 100px;
+    height: 100px;
+}
+
+.preim-text-1 {
+    margin-left: -5px;
+}
+
+.preim button {
+    flex: 1;
+    padding: 5px 10px;
+    background-color: rgb(195, 204, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.preim button:hover {
+    background-color: rgba(238, 210, 255, 0.411);
+    color: rgb(0, 0, 92);
+    transform: scale(1.1);
+}
+
+/* preim end */
+
+/* uslugi start */
+.uslugi {
+    background-color: rgb(176, 176, 255);
+    text-align: center;
+}
+
+.uslugi h1 {
+    margin-bottom: 50px;
+}
+
+.uslugi-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.836);
+    border-radius: 10px;
+}
+
+.item img, .item p {
+    margin-bottom: 20px;
+}
+
+.item h4 {
+    margin-bottom: 5px;
+}
+
+.item button {
+    padding: 5px 10px;
+    background-color: rgb(227, 231, 255);
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.item button:hover {
+    background-color: rgba(238, 210, 255, 0.411);
+    color: rgb(0, 0, 92);
+    transform: scale(1.1);
+}
+
+/* uslugi end */
+
+/* doctors start */
+.doctors {
+    text-align: center;
+}
+
+.doctors h1 {
+    margin-bottom: 50px;
+}
+
+.doctors h4 {
+    margin-bottom: 5px;
+}
+
+.doctor-cards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.doctor-card img {
+    width: 270px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.doctor-card img:hover {
+    transform: scale(1.1);
+}
+
+/* doctors end */
+
+/* feetback start */
+.feetback {
+    background-color: rgb(176, 176, 255);
+}
+
+.feetback h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.vse-otziv {
+    max-width: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.otziv {
+    background-color: rgba(255, 255, 255, 0.788);
+    padding: 20px 30px;
+    border-radius: 20px;
+}
+
+.otziv h4 {
+    margin-bottom: 10px;
+}
+
+/* feetback end */
+
+/* partners start */
+.partners h1 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.part-carts {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.part-carts img {
+    width: 200px;
+    height: 100px;
+}
+
+.part-carts img:hover {
+    transform: scale(1.1);
+}
+
+/* partners end */
+
+/* contacts start */
+.contacts {
+    background-color: rgb(176, 176, 255);
+    text-align: center;
+}
+
+.contacts h1 {
+    margin-bottom: 50px;
+}
+
+.info {
+    background-color: rgba(240, 248, 255, 0.767);
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.info a{
+    color: rgb(53, 71, 170);
+}
+
+.info a:hover {
+    color: rgb(77, 15, 136);
+}
+
+.info h3{
+    margin-bottom: 5px;
+}
+
+.svaz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+form input {
+    width: 400px;
+    padding: 10px 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 92);
+    font-size: 15px;
+    outline: none;
+}
+
+.check{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+form .gal{
+    width: 50px;
+}
+
+form .submit {
+    background-color: rgb(100, 123, 255);
+    color: white;
+}
+
+form .submit:hover {
+    background-color: antiquewhite;
+    color: black;
+}
+
+/* contacts end */
+
+/* footer start */
+footer{
+    background-color: rgb(167, 167, 255);
+}
+
+.footer-block {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    width: 200px;
+}
+
+footer h4 {
+    color: rgb(53, 71, 170);
+}
+
+/* footer end */
+
+.totop{
+    color: white;
+    background-color: rgb(223, 178, 123);
+    border-radius: 10px;
+    padding: 10px;
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    display: none;
+}
+
+.totop:hover{
+    transform: scale(1.2);
+}
+
+.totop.show{
+    display: block;
+}
